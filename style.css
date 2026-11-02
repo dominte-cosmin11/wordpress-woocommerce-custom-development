@@ -1,0 +1,25 @@
+.portfolio-whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 18px;
+    border-radius: 6px;
+    background: #25D366;
+    color: #111;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity .2s ease;
+}
+
+.portfolio-whatsapp-button:hover,
+.portfolio-whatsapp-button:focus {
+    opacity: .85;
+    color: #111;
+}
+
+@media (max-width: 600px) {
+    .portfolio-whatsapp-button {
+        width: 100%;
+        justify-content: center;
+    }
+}
